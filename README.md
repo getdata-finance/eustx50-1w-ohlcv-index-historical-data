@@ -27,7 +27,7 @@
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `1w` sample updated in sync
 
-> **Sample on GitHub** · `EUSTX50_1w.csv` (13 rows, `2026-06-04` -> `2026-08-27`, 0.87 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/eustx50)** — **732** `1w` rows (full `1m`: 2,836,357), **11 timeframes**, `2012-08-23` -> `2026-08-27`.
+> **Sample on GitHub** · `EUSTX50_1w.csv` (106 rows, `2024-08-22` -> `2026-08-27`, 9.58 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/eustx50)** — **732** `1w` rows (full `1m`: 2,770,438), **11 timeframes**, `2012-08-23` -> `2026-08-27`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | EURO STOXX 50 · Index | EURO STOXX 50 · Index |
 | Timeframes | `1w` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1w rows | 13 | **732** |
-| Size | 0.87 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/eustx50) |
-| Period | `2026-06-04` -> `2026-08-27` | `2012-08-23` -> `2026-08-27` |
+| 1w rows | 106 | **732** |
+| Size | 9.58 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/eustx50) |
+| Period | `2024-08-22` -> `2026-08-27` | `2012-08-23` -> `2026-08-27` |
 | File | `EUSTX50_1w.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/eustx50) |
 | Coverage report | — | [EUSTX50 coverage](https://getdata.finance/coverage/eustx50) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`EUSTX50_1w.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-06-04T00:00:00+00:00 | 6040.55 | 6150.39 | 5962.05 | 5983.28 | 227531 |
-| 2026-06-11T00:00:00+00:00 | 5983.28 | 6307.94 | 5983.28 | 6247.48 | 246641 |
-| 2026-06-18T00:00:00+00:00 | 6247.48 | 6353.43 | 6195.35 | 6216.4 | 152028 |
-| 2026-06-25T00:00:00+00:00 | 6216.4 | 6348.84 | 6192.98 | 6291.36 | 152460 |
-| 2026-07-02T00:00:00+00:00 | 6291.36 | 6440.58 | 6187.73 | 6252.78 | 113015 |
+| 2024-08-22T00:00:00+00:00 | 4962.84 | 5005.48 | 4935.71 | 4987.02 | 49288.70199 |
+| 2024-08-29T00:00:00+00:00 | 4987.02 | 5059.97 | 4904.6 | 4916.13 | 60007.74821 |
+| 2024-09-05T00:00:00+00:00 | 4916.13 | 4925.24 | 4790.8 | 4887.39 | 96560.60459 |
+| 2024-09-12T00:00:00+00:00 | 4887.39 | 4960.34 | 4850.37 | 4914.37 | 79963 |
+| 2024-09-19T00:00:00+00:00 | 4914.37 | 5030.38 | 4914.37 | 4990.39 | 61003.04751 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-30T00:00:00+00:00 | 6235.6 | 6526.54 | 6235.6 | 6486.6 | 120749 |
-| 2026-08-06T00:00:00+00:00 | 6486.6 | 6583.64 | 6485.9 | 6554.65 | 65108 |
-| 2026-08-13T00:00:00+00:00 | 6554.65 | 6577.6 | 6438.52 | 6444.57 | 50701 |
-| 2026-08-20T00:00:00+00:00 | 6444.57 | 6500.73 | 6407.95 | 6468.74 | 49573 |
-| 2026-08-27T00:00:00+00:00 | 6470.27 | 6500.62 | 6334.93 | 6343.47 | 48043 |
+| 2026-07-30T00:00:00+00:00 | 6335.97 | 6626.41 | 6333.47 | 6586.47 | 88954.72892 |
+| 2026-08-06T00:00:00+00:00 | 6586.47 | 6684.52 | 6585.77 | 6654.03 | 65706.06776 |
+| 2026-08-13T00:00:00+00:00 | 6654.03 | 6674.98 | 6534.9 | 6540.95 | 50853.13021 |
+| 2026-08-20T00:00:00+00:00 | 6540.95 | 6572.23 | 6439.43 | 6470.27 | 55788.70892 |
+| 2026-08-27T00:00:00+00:00 | 6470.27 | 6500.62 | 6335.42 | 6343.47 | 48479 |
 
 ## Schema
 
